@@ -72,9 +72,8 @@ arcos, que es justo lo que el enunciado pide evitar.
 
 ## Notas de implementación
 
-**Propiedad estructural del recurso.** El escenario entra en el subproblema de
-segunda etapa únicamente a través del escalar $\tau_s(x) = \sum_{ij} \xi^{(s)}_{ij} x_{ij}$,
-de modo que $Q(x,\xi_s)=\varphi(\tau_s)$ para una única función convexa lineal por
+**Propiedad estructural del recurso.** El escenario entra en el subproblema de segunda etapa únicamente a través del escalar $\tau\_s(x) = \sum\_{ij} \xi^{(s)}\_{ij} x\_{ij}$,
+de modo que $Q(x,\xi\_s)=\varphi(\tau\_s)$ para una única función convexa lineal por
 tramos. Esto permite construir los $K$ modelos LP una sola vez y reoptimizar
 cambiando solo el lado derecho, y da una verificación independiente de los valores y
 los duales (`recurso_analitico`), que coincide con el LP hasta precisión de máquina.
