@@ -20,6 +20,7 @@ Práctica 1/
 ├── p1_experimentos.py      orquestación de los experimentos y visualizaciones
 ├── build_notebook.py       genera el notebook embebiendo los tres módulos
 ├── informe/
+    ├── enunciado.pdf       enunciado oficial de la práctica 1, en formato pdf
 │   └── informe.pdf         informe técnico en LaTeX compilado en pdf (entregable principal)
 ├── test_modelo.py          valida el L-shaped contra la forma extensa
 ├── test_datos.py           valida los cuatro filtros y la construcción de pools
