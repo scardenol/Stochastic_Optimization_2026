@@ -25,7 +25,6 @@ Práctica 1/
 ├── test_modelo.py          valida el L-shaped contra la forma extensa
 ├── test_datos.py           valida los cuatro filtros y la construcción de pools
 ├── test_experimentos.py    prueba de extremo a extremo con datos sintéticos
-├── test_informe.py         comprobaciones estructurales del LaTeX
 ├── requirements.txt        dependencias
 └── README.md
 ```
