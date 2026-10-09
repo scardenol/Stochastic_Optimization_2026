@@ -13,12 +13,16 @@ mediante L-shaped anidado. Después, aplicar la política obtenida a los rendimi
 
 ## Cómo ejecutarlo
 
-**Google Colab (recomendado).** Abrir el notebook [`practica2_inversion_multietapa.ipynb`](practica2_inversion_multietapa.ipynb), darle click al botón *Open in Colab*, *Entorno de ejecución → Ejecutar todo*.
+### Google Colab (recomendado)
+1) Abrir el notebook [`practica2_inversion_multietapa.ipynb`](practica2_inversion_multietapa.ipynb),
+2) darle click al botón *Open in Colab*,
+3) darle click a *Entorno de ejecución → Ejecutar todo*.
 
 La primera celda instala las dependencias (`%pip install`). Al final se descarga
 `practica2_salidas.zip` con `datos/`, `resultados/` y `figuras/`.
 
-**Local.**
+### **Local**
+Descargar el repo y en una terminal ejecutar:
 ```bash
 pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute --inplace practica2_inversion_multietapa.ipynb
