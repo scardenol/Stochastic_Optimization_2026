@@ -1,0 +1,66 @@
+{
+  "LB": 1.2711920734305535,
+  "UB": 1.2711920735348035,
+  "gap": 8.20095909836933e-11,
+  "ciclos": 17,
+  "cortes": 349,
+  "tiempo_s": 33.5424280166626,
+  "RP": 1.2711920735348035,
+  "EEV": 2.753228476363919,
+  "VSS": 1.4820364028291155,
+  "reducido": {
+    "estados": [
+      "AAA",
+      "ABB"
+    ],
+    "L_shaped": -14.231115975098467,
+    "equiv_det": -14.231115975098477,
+    "dif_rel": 7.489322028610444e-16
+  },
+  "equiv_det_completo": 1.2711920735314324,
+  "dif_equiv_det_completo": 2.6519054532788744e-12,
+  "arbol": {
+    "costo_esperado": 1.2711920735350224,
+    "riqueza_esperada": 110.41757821768913,
+    "riqueza_desv": 9.408316625526712,
+    "riqueza_p05": 90.79145161103268,
+    "deficit_esperado": 1.8962567637413872,
+    "exceso_esperado": 6.313834981430525,
+    "prob_meta": 0.7412147521972656,
+    "prob_deficit": 0.2587852478027344,
+    "riqueza_min": 74.99167995092235,
+    "riqueza_max": 127.0136570764016
+  },
+  "regla_EV": {
+    "costo_esperado": 2.753228476363919,
+    "riqueza_esperada": 111.23142278715076,
+    "riqueza_desv": 11.177014580664402,
+    "riqueza_p05": 88.73722425377026,
+    "deficit_esperado": 2.6615504211715617,
+    "exceso_esperado": 7.892973208322327,
+    "prob_meta": 0.5998191833496094,
+    "prob_deficit": 0.4001808166503906,
+    "riqueza_min": 73.35275912636007,
+    "riqueza_max": 127.7642539192077
+  },
+  "validacion": {
+    "estocastica": {
+      "riqueza_terminal": 115.1156081400526,
+      "rend_acumulado": 0.15115608140052594,
+      "exceso": 9.1156081400526,
+      "deficit": 0.0,
+      "costo_realizado": -9.1156081400526,
+      "cumple_meta": 1
+    },
+    "EV": {
+      "riqueza_terminal": 112.7092145508366,
+      "rend_acumulado": 0.127092145508366,
+      "exceso": 6.709214550836606,
+      "deficit": 0.0,
+      "costo_realizado": -6.709214550836606,
+      "cumple_meta": 1
+    }
+  },
+  "estados_sin_soporte": [],
+  "respaldo_activado": false
+}

@@ -1,0 +1,19 @@
+{
+  "fuente": "Yahoo Finance, a través de la librería yfinance",
+  "version_yfinance": "0.2.66",
+  "campo": "Adj Close (auto_adjust=False), frecuencia diaria",
+  "activos": [
+    "SPY",
+    "LQD",
+    "GLD"
+  ],
+  "ventana_calibracion": [
+    "2009-12-01",
+    "2026-01-01 (exclusivo)"
+  ],
+  "ventana_validacion": [
+    "2025-12-01",
+    "2026-10-01 (exclusivo)"
+  ],
+  "fecha_consulta_utc": "2026-10-09 05:29:05"
+}
