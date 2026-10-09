@@ -2,13 +2,19 @@
 
 Optimización Estocástica · Maestría en Matemáticas Aplicadas, EAFIT · 2026-2
 
-Todo el código está en un único notebook: `practica2_inversion_multietapa.ipynb`.
-No genera módulos ni scripts. Solver: `scipy.optimize.linprog` (HiGHS), sin licencias.
-Datos: únicamente `yfinance` (Yahoo Finance, campo `Adj Close`, `auto_adjust=False`).
+- Todo el código está en un único notebook pre-ejecutado: [`practica2_inversion_multietapa.ipynb`](practica2_inversion_multietapa.ipynb) (para visualizar el notebook ejecutado basta con abrir el link y GitHub lo renderiza). No genera módulos ni scripts.
+- Solver: `scipy.optimize.linprog` (HiGHS), sin licencias.
+- Datos: únicamente `yfinance` (Yahoo Finance, campo `Adj Close`, `auto_adjust=False`).
+
+## Propósito
+Usar datos hasta 2025 para construir y resolver un modelo de inversión multietapa 
+mediante L-shaped anidado. Después, aplicar la política obtenida a los rendimientos observados en
+2026 y analizar su desempeño fuera de muestra.
 
 ## Cómo ejecutarlo
 
-**Google Colab (recomendado).** Abrir el notebook, *Entorno de ejecución → Ejecutar todo*.
+**Google Colab (recomendado).** Abrir el notebook [`practica2_inversion_multietapa.ipynb`](practica2_inversion_multietapa.ipynb), darle click al botón *Open in Colab*, *Entorno de ejecución → Ejecutar todo*.
+
 La primera celda instala las dependencias (`%pip install`). Al final se descarga
 `practica2_salidas.zip` con `datos/`, `resultados/` y `figuras/`.
 
@@ -25,6 +31,24 @@ incompleto. Para reutilizar los cierres ya guardados sin conexión, poner
 
 No hay componentes aleatorios, por lo que no se usa semilla. Tiempo aproximado: menos de
 un minuto de cómputo más la descarga.
+
+## Estructura del directorio
+Práctica 2/
+├── practica2_inversion_multietapa.ipynb      notebook principal, autocontenido y ejecutable en Colab
+├── datos/
+│   ├── *.csv                           archivos .csv que contienen los datos de calibración y validación
+│   └── metadatos_descarga.json         archivo con la metadata de la consulta de los datos (fuente y fecha)
+├── figuras/
+│   └── *.png                           imágenes .png con los resultados exportados del notebook
+├── informe/
+│   ├── enunciado.pdf       enunciado oficial de la práctica 1, en formato pdf
+│   └── informe.pdf         informe técnico en LaTeX compilado en pdf (entregable principal)
+├── resultados/
+│   ├── *.csv               resultados exportados
+│   ├── *.tex               resultados extras como cifras y tablas usados para alimentar el informe de latex
+│   └── resumen.json        archivo .json extra que compila todas las cifras en un formato fácil de leer
+├── requirements.txt        dependencias
+└── README.md               (este archivo) descripción, motivación e instalación del directorio
 
 ## Qué hace cada sección
 
