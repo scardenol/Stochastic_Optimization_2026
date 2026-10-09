@@ -33,6 +33,7 @@ No hay componentes aleatorios, por lo que no se usa semilla. Tiempo aproximado: 
 un minuto de cómputo más la descarga.
 
 ## Estructura del directorio
+```
 Práctica 2/
 ├── practica2_inversion_multietapa.ipynb      notebook principal, autocontenido y ejecutable en Colab
 ├── datos/
@@ -49,6 +50,7 @@ Práctica 2/
 │   └── resumen.json        archivo .json extra que compila todas las cifras en un formato fácil de leer
 ├── requirements.txt        dependencias
 └── README.md               (este archivo) descripción, motivación e instalación del directorio
+```
 
 ## Qué hace cada sección
 
